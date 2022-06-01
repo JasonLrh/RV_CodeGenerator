@@ -1,0 +1,28 @@
+{
+    "peripheral":[
+        {
+            "name": "tim",
+            "reg":[
+                "CFG",
+                "INTR_CFG",
+                "INTR_TYPE",
+                "PSC",
+                "ARR",
+                "CNT",
+                "CCR1",
+                "CCR2"
+            ]
+        },
+        {
+            "name": "usart",
+            "reg":[
+                "CFG",
+                "INTR_CFG",
+                "INTR_TYPE",
+                "DRX",
+                "DTX",
+                "DRDY"
+            ]
+        }
+    ]
+}
